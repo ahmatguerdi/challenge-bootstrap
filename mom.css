@@ -308,6 +308,41 @@
     background: #fff;
   }
 
+  .section .card .card-info{
+    position:absolute;
+    bottom: 0px;
+    left: -35px;
+    right: -35px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 60px;
+    font-size: 15px;
+    border-radius: 8px;
+    color: #90c870;
+    /* text-align: right; */
+  }
+
+  .section .card{
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  /* .section  #ajust1{
+    width: 90%;
+  } */
+  .section  #ajust2{
+    height: 100%;
+    width: 100%;
+  }
+  /* .section  #ajust3{
+    width: 90%;
+  } */
+
   footer a{
     color: #111;
   }
